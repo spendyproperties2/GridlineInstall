@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gridline Installations - Precision Setup for Your Digital Life</title>
+    <title>Gridline Installations | Professional TV Mounting & Smart Home Setup | Northeast Metro Atlanta</title>
+    <meta name="description" content="Professional TV mounting, smart home installation, and handyman services in Johns Creek, Alpharetta, Suwanee, Duluth, and all Northeast Metro Atlanta areas. Book online today!">
+    <meta name="keywords" content="TV mounting, smart home installation, handyman services, furniture assembly, Northeast Metro Atlanta, Johns Creek, Alpharetta, Suwanee, Duluth, Cumming, Lawrenceville">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #2c3e50;
             --secondary: #e74c3c;
             --accent: #3498db;
-            --light: #ecf0f1;
+            --light: #f8f9fa;
             --dark: #2c3e50;
             --text: #333;
-            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+            --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
             --transition: all 0.3s ease;
         }
         
@@ -21,13 +28,19 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
         body {
             color: var(--text);
             line-height: 1.6;
             overflow-x: hidden;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            line-height: 1.3;
         }
         
         .container {
@@ -35,6 +48,14 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
+        }
+        
+        .section {
+            padding: 80px 0;
+        }
+        
+        .text-center {
+            text-align: center;
         }
         
         /* Header & Navigation */
@@ -91,6 +112,7 @@
             color: var(--dark);
             font-weight: 500;
             transition: var(--transition);
+            font-size: 16px;
         }
         
         nav a:hover {
@@ -100,37 +122,41 @@
         .cta-button {
             background: var(--secondary);
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             border-radius: 30px;
             text-decoration: none;
             font-weight: 600;
             transition: var(--transition);
+            font-family: 'Montserrat', sans-serif;
         }
         
         .cta-button:hover {
             background: #c0392b;
             transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
         }
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background: linear-gradient(rgba(44, 62, 80, 0.85), rgba(44, 62, 80, 0.85)), url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
             background-size: cover;
             background-position: center;
             color: white;
-            padding: 160px 0 100px;
+            padding: 180px 0 100px;
             text-align: center;
         }
         
         .hero h2 {
-            font-size: 3rem;
+            font-size: 3.2rem;
             margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         
         .hero p {
-            font-size: 1.2rem;
-            max-width: 700px;
-            margin: 0 auto 30px;
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            font-weight: 400;
         }
         
         .hero-buttons {
@@ -143,56 +169,75 @@
         .button-primary {
             background: var(--secondary);
             color: white;
-            padding: 15px 30px;
+            padding: 16px 35px;
             border-radius: 30px;
             text-decoration: none;
             font-weight: 600;
             transition: var(--transition);
+            font-size: 1.1rem;
+            font-family: 'Montserrat', sans-serif;
         }
         
         .button-primary:hover {
             background: #c0392b;
-            transform: translateY(-2px);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(231, 76, 60, 0.4);
         }
         
         .button-secondary {
             background: transparent;
             color: white;
-            padding: 15px 30px;
+            padding: 16px 35px;
             border: 2px solid white;
             border-radius: 30px;
             text-decoration: none;
             font-weight: 600;
             transition: var(--transition);
+            font-size: 1.1rem;
+            font-family: 'Montserrat', sans-serif;
         }
         
         .button-secondary:hover {
             background: white;
             color: var(--primary);
+            transform: translateY(-3px);
         }
         
         /* Services Section */
         .services {
-            padding: 80px 0;
             background: var(--light);
         }
         
         .section-title {
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 60px;
         }
         
         .section-title h2 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             color: var(--primary);
             margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--secondary);
+            border-radius: 2px;
         }
         
         .section-title p {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             max-width: 700px;
-            margin: 0 auto;
-            color: #666;
+            margin: 30px auto 0;
+            color: var(--gray);
         }
         
         .services-grid {
@@ -203,21 +248,35 @@
         
         .service-card {
             background: white;
-            border-radius: 10px;
+            border-radius: 12px;
             overflow: hidden;
             box-shadow: var(--shadow);
             transition: var(--transition);
+            position: relative;
         }
         
         .service-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
         }
         
         .service-image {
             height: 200px;
             background-size: cover;
             background-position: center;
+            position: relative;
+        }
+        
+        .service-category {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--secondary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
         }
         
         .service-content {
@@ -232,20 +291,51 @@
         
         .service-content p {
             margin-bottom: 20px;
-            color: #666;
+            color: var(--gray);
+            line-height: 1.6;
         }
         
         .service-price {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             font-weight: 700;
             color: var(--secondary);
             margin-bottom: 15px;
         }
         
+        .service-features {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .service-features li {
+            margin-bottom: 8px;
+            color: var(--gray);
+            position: relative;
+        }
+        
+        .service-features li:before {
+            content: '✓';
+            color: var(--secondary);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
         /* How It Works */
         .how-it-works {
-            padding: 80px 0;
             background: white;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .how-it-works:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            background: var(--light);
+            z-index: -1;
         }
         
         .steps {
@@ -253,60 +343,83 @@
             justify-content: space-between;
             max-width: 1000px;
             margin: 0 auto;
+            position: relative;
+        }
+        
+        .steps:before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            left: 10%;
+            right: 10%;
+            height: 3px;
+            background: var(--accent);
+            z-index: -1;
         }
         
         .step {
             text-align: center;
             flex: 1;
             padding: 0 20px;
+            position: relative;
         }
         
         .step-number {
-            width: 60px;
-            height: 60px;
-            background: var(--primary);
+            width: 70px;
+            height: 70px;
+            background: var(--accent);
             color: white;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             font-weight: 700;
-            margin: 0 auto 20px;
+            margin: 0 auto 25px;
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+            position: relative;
         }
         
         .step h3 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             margin-bottom: 15px;
             color: var(--primary);
         }
         
+        .step p {
+            color: var(--gray);
+            font-size: 1.05rem;
+        }
+        
         /* Pricing Section */
         .pricing {
-            padding: 80px 0;
             background: var(--light);
+        }
+        
+        .pricing-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            margin-top: 40px;
         }
         
         .pricing-table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 40px;
-            box-shadow: var(--shadow);
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
         }
         
         .pricing-table th, .pricing-table td {
-            padding: 15px 20px;
+            padding: 18px 20px;
             text-align: left;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid var(--light-gray);
         }
         
         .pricing-table th {
             background: var(--primary);
             color: white;
             font-weight: 600;
+            font-size: 1.1rem;
         }
         
         .pricing-table tr:last-child td {
@@ -320,26 +433,79 @@
         .price {
             font-weight: 700;
             color: var(--secondary);
+            font-size: 1.2rem;
+        }
+        
+        .service-name {
+            font-weight: 600;
+            color: var(--primary);
         }
         
         .book-btn {
             background: var(--accent);
             color: white;
-            padding: 8px 15px;
-            border-radius: 4px;
+            padding: 10px 18px;
+            border-radius: 6px;
             text-decoration: none;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             transition: var(--transition);
+            display: inline-block;
         }
         
         .book-btn:hover {
             background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 10px rgba(52, 152, 219, 0.3);
+        }
+        
+        /* Service Areas */
+        .service-areas {
+            background: linear-gradient(to bottom, var(--primary), #243342);
+            color: white;
+            text-align: center;
+        }
+        
+        .service-areas .section-title h2 {
+            color: white;
+        }
+        
+        .service-areas .section-title h2:after {
+            background: var(--secondary);
+        }
+        
+        .cities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .city-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            transition: var(--transition);
+        }
+        
+        .city-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+        }
+        
+        .city-card i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+        
+        .city-card h3 {
+            font-size: 1.3rem;
         }
         
         /* Testimonials */
         .testimonials {
-            padding: 80px 0;
             background: white;
         }
         
@@ -352,14 +518,28 @@
         .testimonial-card {
             background: var(--light);
             padding: 30px;
-            border-radius: 10px;
+            border-radius: 12px;
             box-shadow: var(--shadow);
+            position: relative;
+        }
+        
+        .testimonial-card:before {
+            content: '"';
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 4rem;
+            color: rgba(0, 0, 0, 0.05);
+            font-family: Georgia, serif;
         }
         
         .testimonial-text {
             font-style: italic;
             margin-bottom: 20px;
             color: #555;
+            line-height: 1.7;
+            position: relative;
+            z-index: 1;
         }
         
         .testimonial-author {
@@ -368,8 +548,8 @@
         }
         
         .author-avatar {
-            width: 50px;
-            height: 50px;
+            width: 55px;
+            height: 55px;
             border-radius: 50%;
             background: var(--primary);
             color: white;
@@ -378,6 +558,7 @@
             justify-content: center;
             font-weight: 700;
             margin-right: 15px;
+            font-size: 1.2rem;
         }
         
         .author-info h4 {
@@ -386,13 +567,12 @@
         }
         
         .author-info p {
-            color: #777;
+            color: var(--gray);
             font-size: 0.9rem;
         }
         
         /* FAQ Section */
         .faq {
-            padding: 80px 0;
             background: var(--light);
         }
         
@@ -402,6 +582,11 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         }
         
         .faq-question {
@@ -413,43 +598,50 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            font-family: 'Montserrat', sans-serif;
         }
         
         .faq-answer {
             padding: 20px;
             display: none;
+            line-height: 1.7;
         }
         
         .faq-active .faq-answer {
             display: block;
         }
         
+        .faq-active .faq-question i {
+            transform: rotate(180deg);
+        }
+        
         /* CTA Section */
         .cta-section {
-            padding: 80px 0;
             background: linear-gradient(rgba(44, 62, 80, 0.9), rgba(44, 62, 80, 0.9)), url('https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
             color: white;
             text-align: center;
+            padding: 100px 0;
         }
         
         .cta-section h2 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             margin-bottom: 20px;
         }
         
         .cta-section p {
-            font-size: 1.2rem;
-            max-width: 700px;
-            margin: 0 auto 30px;
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 40px;
         }
         
         /* Footer */
         footer {
             background: var(--dark);
             color: white;
-            padding: 60px 0 30px;
+            padding: 70px 0 30px;
         }
         
         .footer-content {
@@ -460,7 +652,7 @@
         }
         
         .footer-column h3 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             margin-bottom: 20px;
             color: var(--secondary);
         }
@@ -470,7 +662,7 @@
         }
         
         .footer-column li {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
         
         .footer-column a {
@@ -483,17 +675,29 @@
             color: var(--secondary);
         }
         
+        .contact-info li {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info i {
+            margin-right: 15px;
+            color: var(--secondary);
+            width: 20px;
+        }
+        
         .social-links {
             display: flex;
             gap: 15px;
+            margin-top: 20px;
         }
         
         .social-links a {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
+            width: 45px;
+            height: 45px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 50%;
             transition: var(--transition);
@@ -509,10 +713,29 @@
             padding-top: 30px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             color: #999;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
         }
         
         /* Responsive Design */
+        @media (max-width: 992px) {
+            .steps:before {
+                display: none;
+            }
+            
+            .steps {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .hero h2 {
+                font-size: 2.5rem;
+            }
+            
+            .section-title h2 {
+                font-size: 2.3rem;
+            }
+        }
+        
         @media (max-width: 768px) {
             .header-container {
                 flex-direction: column;
@@ -523,32 +746,61 @@
                 margin-top: 20px;
                 flex-direction: column;
                 align-items: center;
+                gap: 15px;
             }
             
             nav li {
-                margin: 10px 0;
+                margin: 0;
             }
             
             .hero h2 {
                 font-size: 2.2rem;
             }
             
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
             .hero-buttons {
                 flex-direction: column;
                 align-items: center;
+                gap: 15px;
             }
             
-            .steps {
-                flex-direction: column;
-            }
-            
-            .step {
-                margin-bottom: 40px;
+            .button-primary, .button-secondary {
+                width: 100%;
+                text-align: center;
             }
             
             .pricing-table {
                 display: block;
                 overflow-x: auto;
+            }
+            
+            .service-areas .cities-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .service-areas .cities-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 60px 0;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .cta-section h2 {
+                font-size: 2.2rem;
+            }
+            
+            .cta-section p {
+                font-size: 1.1rem;
             }
         }
     </style>
@@ -577,8 +829,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h2>Stress-Free Tech Installation & Handyman Services</h2>
-            <p>Expertly mount your TVs, set up your smart home, and assemble your furniture. Done right, guaranteed. Servicing Northeast Metro Atlanta.</p>
+            <h2>Professional TV Mounting & Smart Home Installation</h2>
+            <p>Serving Northeast Metro Atlanta with precision installation services for your home technology and furniture assembly needs. Expertly mounted, perfectly installed, guaranteed.</p>
             <div class="hero-buttons">
                 <a href="#booking" class="button-primary">Instant Quote & Book Online</a>
                 <a href="#services" class="button-secondary">View Our Services</a>
@@ -587,38 +839,231 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="services">
+    <section id="services" class="section services">
         <div class="container">
             <div class="section-title">
                 <h2>Our Services</h2>
-                <p>We combine a handyman's versatility with a tech specialist's expertise for a seamless solution</p>
+                <p>We combine a handyman's versatility with a tech specialist's expertise for all your installation needs</p>
             </div>
             <div class="services-grid">
+                <!-- TV & Home Theater Services -->
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">TV & Home Theater</div>
+                    </div>
                     <div class="service-content">
                         <h3>TV Wall Mounting</h3>
                         <p>Professional mounting at the perfect height with expert cable management for a clean, sleek look.</p>
+                        <ul class="service-features">
+                            <li>Full-motion, tilting, or fixed mounts</li>
+                            <li>Above-fireplace installation</li>
+                            <li>In-wall cable concealment</li>
+                            <li>Soundbar and receiver setup</li>
+                        </ul>
                         <div class="service-price">Starting from $125</div>
-                        <a href="#booking" class="book-btn">Book Now</a>
+                        <a href="#booking" class="book-btn">Book This Service</a>
                     </div>
                 </div>
+
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1565849904465-6dda3d5f5e9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">TV & Home Theater</div>
+                    </div>
                     <div class="service-content">
-                        <h3>Smart Home Setup</h3>
-                        <p>Video doorbells, thermostats, smart locks, and security cameras installed and configured.</p>
-                        <div class="service-price">Starting from $99</div>
-                        <a href="#booking" class="book-btn">Book Now</a>
+                        <h3>Home Theater Setup</h3>
+                        <p>Complete home theater system installation and calibration for the ultimate viewing experience.</p>
+                        <ul class="service-features">
+                            <li>5.1 and 7.1 surround sound setup</li>
+                            <li>Receiver and speaker configuration</li>
+                            <li>Projector and screen installation</li>
+                            <li>System calibration and optimization</li>
+                        </ul>
+                        <div class="service-price">Starting from $299</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
                     </div>
                 </div>
+
+                <!-- Smart Home Services -->
                 <div class="service-card">
-                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1505842381624-c6b0579625a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Smart Home</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Smart Home Device Installation</h3>
+                        <p>Expert installation and configuration of all your smart home devices for seamless integration.</p>
+                        <ul class="service-features">
+                            <li>Video doorbells (Ring, Nest)</li>
+                            <li>Smart thermostats (Nest, Ecobee)</li>
+                            <li>Smart locks and security systems</li>
+                            <li>Wi-Fi mesh network setup</li>
+                        </ul>
+                        <div class="service-price">Starting from $99</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Smart Home</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Security Camera Installation</h3>
+                        <p>Professional installation of indoor and outdoor security cameras for complete home protection.</p>
+                        <ul class="service-features">
+                            <li>Wired and wireless camera setup</li>
+                            <li>Optimal placement advice</li>
+                            <li>DVR/NVR system configuration</li>
+                            <li>Mobile app setup and training</li>
+                        </ul>
+                        <div class="service-price">Starting from $125 per camera</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <!-- Mounting & Installation Services -->
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b1c45346aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Mounting</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Picture & Mirror Hanging</h3>
+                        <p>Professional hanging services for pictures, mirrors, and artwork at the perfect height and placement.</p>
+                        <ul class="service-features">
+                            <li>Gallery wall design and installation</li>
+                            <li>Large and heavy mirror mounting</li>
+                            <li>Precise leveling and placement</li>
+                            <li>Damage-free installation options</li>
+                        </ul>
+                        <div class="service-price">Starting from $45</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1595425970377-2f8ded7c7b19?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Mounting</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Window Treatment Installation</h3>
+                        <p>Expert installation of blinds, curtains, and other window treatments for a polished look.</p>
+                        <ul class="service-features">
+                            <li>Blind and shade installation</li>
+                            <li>Curtain rod mounting</li>
+                            <li>Custom window treatment setup</li>
+                            <li>Motorized blind installation</li>
+                        </ul>
+                        <div class="service-price">Starting from $75</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <!-- Assembly Services -->
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1505842381624-c6b0579625a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Assembly</div>
+                    </div>
                     <div class="service-content">
                         <h3>Furniture Assembly</h3>
-                        <p>From IKEA furniture to exercise equipment, we assemble it quickly and correctly.</p>
+                        <p>Professional assembly of all types of furniture, from IKEA to premium brands, quickly and correctly.</p>
+                        <ul class="service-features">
+                            <li>Flat-pack furniture assembly</li>
+                            <li>Bed frames and dressers</li>
+                            <li>Office furniture setup</li>
+                            <li>Patio and outdoor furniture</li>
+                        </ul>
                         <div class="service-price">Starting from $99</div>
-                        <a href="#booking" class="book-btn">Book Now</a>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Assembly</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Exercise Equipment Assembly</h3>
+                        <p>Expert assembly of treadmills, weight benches, and other exercise equipment for your home gym.</p>
+                        <ul class="service-features">
+                            <li>Treadmill and bike assembly</li>
+                            <li>Weight bench setup</li>
+                            <li>Multi-station gym construction</li>
+                            <li>Safety inspection and testing</li>
+                        </ul>
+                        <div class="service-price">Starting from $149</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <!-- Handyman Services -->
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1586023492125-27b1c45346aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Handyman</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Drywall Repair</h3>
+                        <p>Professional drywall repair services for holes, cracks, and damage from door handles or anchors.</p>
+                        <ul class="service-features">
+                            <li>Small hole patching</li>
+                            <li>Drywall texturing</li>
+                            <li>Water damage repair</li>
+                            <li>Pre-paint preparation</li>
+                        </ul>
+                        <div class="service-price">Starting from $125</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Handyman</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Light Fixture & Ceiling Fan Installation</h3>
+                        <p>Safe and professional installation of light fixtures and ceiling fans to update your home's look.</p>
+                        <ul class="service-features">
+                            <li>Ceiling fan installation</li>
+                            <li>Light fixture replacement</li>
+                            <li>Chandelier hanging</li>
+                            <li>Smart light switch installation</li>
+                        </ul>
+                        <div class="service-price">Starting from $149</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1600566753051-475254d7b3e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Handyman</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Plumbing & Electrical Minor Repairs</h3>
+                        <p>Professional minor plumbing and electrical repairs to keep your home functioning properly.</p>
+                        <ul class="service-features">
+                            <li>Faucet installation and repair</li>
+                            <li>Garbage disposal replacement</li>
+                            <li>Light switch and outlet installation</li>
+                            <li>Toilet repair and replacement</li>
+                        </ul>
+                        <div class="service-price">Starting from $99</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1616128417747-49d43d6ff2a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');">
+                        <div class="service-category">Handyman</div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Organization Solutions</h3>
+                        <p>Custom organization solutions for closets, garages, and other spaces to maximize your storage.</p>
+                        <ul class="service-features">
+                            <li>Closet organization systems</li>
+                            <li>Garage shelving and storage</li>
+                            <li>Floating shelf installation</li>
+                            <li>Custom storage solutions</li>
+                        </ul>
+                        <div class="service-price">Starting from $199</div>
+                        <a href="#booking" class="book-btn">Book This Service</a>
                     </div>
                 </div>
             </div>
@@ -626,7 +1071,7 @@
     </section>
 
     <!-- How It Works Section -->
-    <section id="how-it-works" class="how-it-works">
+    <section id="how-it-works" class="section how-it-works">
         <div class="container">
             <div class="section-title">
                 <h2>How It Works</h2>
@@ -653,28 +1098,344 @@
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
+    <section id="pricing" class="section pricing">
         <div class="container">
             <div class="section-title">
                 <h2>Transparent Pricing</h2>
                 <p>No surprises. Just straightforward pricing for our most popular services</p>
             </div>
-            <table class="pricing-table">
-                <thead>
-                    <tr>
-                        <th>Service</th>
-                        <th>Starting Price</th>
-                        <th>Includes</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>TV Wall Mounting</td>
-                        <td class="price">$125</td>
-                        <td>Mounting on drywall, basic cable management</td>
-                        <td><a href="#booking" class="book-btn">Book</a></td>
-                    </tr>
-                    <tr>
-                        <td>Smart Thermostat Install</td>
-                 
+            <div class="pricing-container">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Starting Price</th>
+                            <th>Includes</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="service-name">TV Wall Mounting</td>
+                            <td class="price">$125</td>
+                            <td>Mounting on drywall, basic cable management</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Smart Thermostat Install</td>
+                            <td class="price">$119</td>
+                            <td>Installation & app setup</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Video Doorbell Install</td>
+                            <td class="price">$99</td>
+                            <td>Mounting to existing wiring</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Furniture Assembly</td>
+                            <td class="price">$99</td>
+                            <td>Assembly of standard item</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Ceiling Fan Install</td>
+                            <td class="price">$149</td>
+                            <td>Replacement of existing fixture</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Garbage Disposal Replacement</td>
+                            <td class="price">$195</td>
+                            <td>Remove old, install new standard unit</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Drywall Repair (Small Holes)</td>
+                            <td class="price">$125</td>
+                            <td>Patch, sand, and texture match</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Faucet Installation</td>
+                            <td class="price">$159</td>
+                            <td>Remove old, install new, check for leaks</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Security Camera (Wired)</td>
+                            <td class="price">$125/camera</td>
+                            <td>Mount camera & run power</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td class="service-name">Smart Lock Installation</td>
+                            <td class="price">$89</td>
+                            <td>Install deadbolt & program codes</td>
+                            <td><a href="#booking" class="book-btn">Book</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas Section -->
+    <section class="section service-areas">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Service Areas</h2>
+                <p>Proudly serving Northeast Metro Atlanta and surrounding communities</p>
+            </div>
+            <div class="cities-grid">
+                <div class="city-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Johns Creek</h3>
+                </div>
+                <div class="city-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Alpharetta</h3>
+                </div>
+                <div class="city-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Suwanee</h3>
+                </div>
+                <div class="city-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Duluth</h3>
+                </div>
+                <div class="city-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Cumming</h3>
+                </div>
+                <div class="city-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Lawrenceville</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+                <p>Trusted by hundreds of happy homeowners in Northeast Metro Atlanta</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "Gridline mounted my 75" TV above the fireplace and hid all the wires. It looks like a professional showroom. Could not be happier! They were punctual, professional, and the price was fair for the quality of work."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div class="author-info">
+                            <h4>Sarah K.</h4>
+                            <p>Alpharetta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "I was struggling with my new smart home devices. They set up my Nest thermostat, Ring doorbell, and smart locks in no time. Worth every penny! The technician was knowledgeable and showed me how to use everything."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <h4>Michael J.</h4>
+                            <p>Johns Creek</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "They assembled my entire IKEA kitchen and bedroom set in half the time it would have taken me. Professional, efficient, and affordable. I'll definitely use them again for future projects."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RP</div>
+                        <div class="author-info">
+                            <h4>Rachel P.</h4>
+                            <p>Suwanee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about our services</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Are you licensed and insured?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, we are fully insured for your protection. Our Georgia business license number is #123456789. We carry comprehensive liability insurance to protect your property during our services.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What forms of payment do you accept?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We accept all major credit cards, debit cards, and digital payments (Zelle/Venmo) for your convenience. Payment is due upon completion of work unless otherwise arranged for commercial clients.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What is your service area?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We proudly serve Northeast Metro Atlanta: Johns Creek, Alpharetta, Suwanee, Duluth, Cumming, Lawrenceville, and surrounding communities. Contact us if you're outside these areas - we may still be able to help!
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do I need to provide any equipment?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We provide all necessary tools and basic mounting hardware. For TV mounts, you can provide your own or we can source a high-quality one for you at an additional cost. For other services, we'll discuss any needed materials during the booking process.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How long does a typical installation take?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Most TV mounting jobs take 1-2 hours. Smart home device installations typically take 1-2 hours per device. Furniture assembly times vary greatly depending on the item - a simple bookcase might take 30 minutes while a complex bed frame could take 2-3 hours. We'll provide a time estimate when you book.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Do you offer warranties on your work?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, we offer a 90-day warranty on all our workmanship. If anything we installed becomes loose or has issues due to our installation, we'll return and fix it at no additional cost. This doesn't cover issues with the equipment itself, which would be covered by the manufacturer's warranty.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="booking" class="cta-section">
+        <div class="container">
+            <h2>Ready to Check Those Projects Off Your List?</h2>
+            <p>Book online in less than a minute and secure your spot. Our team is ready to help you transform your space with professional installation services.</p>
+            <a href="#" class="button-primary">Book Your Installation Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Gridline Installations</h3>
+                    <p>Precision setup for your digital life. Expert installation services in Northeast Metro Atlanta.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">TV Mounting</a></li>
+                        <li><a href="#">Smart Home Setup</a></li>
+                        <li><a href="#">Furniture Assembly</a></li>
+                        <li><a href="#">Home Theater Installation</a></li>
+                        <li><a href="#">Handyman Repairs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> (770) 555-0123</li>
+                        <li><i class="fas fa-envelope"></i> hello@gridlineinstallations.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Servicing Northeast Metro Atlanta</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Gridline Installations. All rights reserved. | GA License #123456789</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('faq-active');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a, .hero-buttons a, .book-btn').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // Simple animation on scroll
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Animate service cards
+        document.querySelectorAll('.service-card').forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(card);
+        });
+
+        // Animate steps
+        document.querySelectorAll('.step').forEach(step => {
+            step.style.opacity = 0;
+            step.style.transform = 'translateY(20px)';
+            step.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(step);
+        });
+    </script>
+</body>
+</html>
